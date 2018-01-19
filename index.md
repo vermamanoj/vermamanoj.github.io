@@ -2,6 +2,7 @@
 layout: default
 ---
 
+This is **placeholder** for my blogs and codes. Following code is copied from default *index.md* file
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
@@ -30,11 +31,12 @@ var fun = function lang(l) {
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+```python
+# Python code with syntax highlighting
+import time
+for x in range(10):
+  time.sleep(x)
+  print("I slept for {0} seconds", x)
 ```
 
 #### [](#header-4)Header 4
